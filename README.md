@@ -1,5 +1,17 @@
 # REST API (without express)
 
+
+### Todo
+
+- [ ] Code must be covered with unit tests
+- [x] Clean, easy to understand and maintainable 
+- [x] Be RESTful
+- [x] Validate inputs
+- [x] Avoid using frameworks (e.g. Laravel, Sprint Boot) -- we’d like to see all code written from the ground up to understand your abilities regardless of a framework
+
+#### Bonus 
+- [x] Dockerize
+
 ## Tech Stack
 ### Backend
 - NodeJS, Mongodb, Joi (validation library) 
