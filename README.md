@@ -39,12 +39,13 @@ Note: Just hit `http://0.0.0.0:3001` and test the api is running or not.
 
 ### **Book API**
 
-Api Endpoint | #Method 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-/books | GET | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-/books | POST | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-/books/{bookId} | PUT | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-/books/{bookId} | DELETE | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+| API Endpoint  | Method | Description |
+| ------------- | ------------- | ------------- |
+| `/books`  | GET  | Read all books  |
+| `/books`  | POST  | Create new boo  |
+| `/books/{bookId}`  | PUT  | Update existing book  |
+| `/books/{bookId}`  | DELETE  | Delete book  |
+
 
 
 ## Project structure
